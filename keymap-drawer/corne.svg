@@ -277,6 +277,12 @@ path.combo {
 <rect rx="6" ry="6" x="406" y="211" width="28" height="26" class="combo"/>
 <text x="420" y="224" class="combo tap">FN</text>
 </g>
+<g class="combo combopos-1">
+<path d="M153,127 l-57,-64" class="combo"/>
+<path d="M153,127 l57,64" class="combo"/>
+<rect rx="6" ry="6" x="139" y="114" width="28" height="26" class="combo"/>
+<text x="153" y="127" class="combo tap">LA(F4)</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 330)" class="layer-L1">
@@ -456,6 +462,12 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RALT</text>
 </g>
+<g class="combo combopos-0">
+<path d="M153,127 l-57,-64" class="combo"/>
+<path d="M153,127 l57,64" class="combo"/>
+<rect rx="6" ry="6" x="139" y="114" width="28" height="26" class="combo"/>
+<text x="153" y="127" class="combo tap">LA(F4)</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-L2">
@@ -627,6 +639,12 @@ path.combo {
 <g transform="translate(617, 204)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RALT</text>
+</g>
+<g class="combo combopos-0">
+<path d="M153,127 l-57,-64" class="combo"/>
+<path d="M153,127 l57,64" class="combo"/>
+<rect rx="6" ry="6" x="139" y="114" width="28" height="26" class="combo"/>
+<text x="153" y="127" class="combo tap">LA(F4)</text>
 </g>
 </g>
 </g>
@@ -804,6 +822,12 @@ path.combo {
 <text x="0" y="0" class="key tap">
 <tspan x="0" dy="-0.6em">PLAY</tspan><tspan x="0" dy="1.2em">PAUSE</tspan>
 </text>
+</g>
+<g class="combo combopos-0">
+<path d="M153,127 l-57,-64" class="combo"/>
+<path d="M153,127 l57,64" class="combo"/>
+<rect rx="6" ry="6" x="139" y="114" width="28" height="26" class="combo"/>
+<text x="153" y="127" class="combo tap">LA(F4)</text>
 </g>
 </g>
 </g>
