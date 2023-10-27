@@ -17,6 +17,11 @@
             key-positions = <38 39>;
             layers = <0>;
         };
+
+        Exit {
+            bindings = <&kp LA(F4)>;
+            key-positions = <1 36>;
+        };
     };
 
     keymap {
