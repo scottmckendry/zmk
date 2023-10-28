@@ -21,6 +21,7 @@
         Exit {
             bindings = <&kp LA(F4)>;
             key-positions = <1 36>;
+            layers = <0>;
         };
     };
 
