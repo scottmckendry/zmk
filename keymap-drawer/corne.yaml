@@ -25,7 +25,7 @@ layers:
   - UP
   - RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG UP
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -37,7 +37,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG DN
   - LGUI
   - {type: held}
   - SPACE
@@ -108,9 +108,10 @@ layers:
   - {t: ▽, type: trans}
   - PREV
   - VOL DN
-  - VOLUME UP
+  - VOL UP
   - NEXT
   - {t: ▽, type: trans}
+  - BRI UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,8 +123,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRI DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -133,7 +133,4 @@ layers:
 combos:
 - p: [38, 39]
   k: FN
-  l: [L0]
-- p: [1, 36]
-  k: LA(F4)
   l: [L0]
