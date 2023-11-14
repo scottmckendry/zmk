@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  L0: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
-    Z, X, C, V, B, N, M, ',', ., /, ESC, '$$mdi:apple-keyboard-command$$', L1, '$$mdi:keyboard-space$$', ⮐, L2, '$$mdi:apple-keyboard-option$$']
+  L0: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, ⮐, '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
+    Z, X, C, V, B, N, M, ',', ., /, ESC, '$$mdi:apple-keyboard-command$$', L1, '$$mdi:keyboard-space$$', '$$mdi:backspace-outline$$', L2, '$$mdi:apple-keyboard-option$$']
   L1:
   - $$mdi:keyboard-tab$$
   - '1'
