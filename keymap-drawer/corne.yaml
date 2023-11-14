@@ -112,7 +112,7 @@ layers:
   - $$mdi:volume-plus$$
   - $$mdi:skip-forward$$
   - {t: ▽, type: trans}
-  - $$tabler:brightness-up$$
+  - $$mdi:brightness-7$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$tabler:brightness-down$$
+  - $$mdi:brightness-5$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
