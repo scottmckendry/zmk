@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  L0: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
-    Z, X, C, V, B, N, M, ',', ., /, ESC, '$$mdi:apple-keyboard-command$$', L1, '$$mdi:keyboard-space$$', ⮐, L2, '$$mdi:apple-keyboard-option$$']
+  L0: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, ⮐, '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
+    Z, X, C, V, B, N, M, ',', ., /, ESC, '$$mdi:apple-keyboard-command$$', L1, '$$mdi:keyboard-space$$', '$$mdi:backspace-outline$$', L2, '$$mdi:apple-keyboard-option$$']
   L1:
   - $$mdi:keyboard-tab$$
   - '1'
@@ -14,7 +14,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - $$mdi:backspace-outline$$
+  - RETURN
   - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
   - {t: '1', s: '$$mdi:bluetooth$$'}
   - {t: '2', s: '$$mdi:bluetooth$$'}
@@ -42,7 +42,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {type: held}
   - $$mdi:keyboard-space$$
-  - ⮐
+  - $$mdi:backspace-outline$$
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   L2:
@@ -57,7 +57,7 @@ layers:
   - '*'
   - (
   - )
-  - $$mdi:backspace-reverse-outline$$
+  - RETURN
   - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
   - $$mdi:keyboard-space$$
-  - ⮐
+  - $$mdi:backspace-reverse-outline$$
   - {type: held}
   - $$mdi:apple-keyboard-option$$
   FN:
