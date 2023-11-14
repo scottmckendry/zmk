@@ -127,6 +127,10 @@ rect.ghost, rect.combo.ghost {
     fill: #ddd;
 }
 
+rect.trans {
+  fill: rgba(33, 33, 33, 0.2)
+}
+
 text {
     text-anchor: middle;
     dominant-baseline: middle;
