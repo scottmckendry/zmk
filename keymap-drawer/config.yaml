@@ -1,5 +1,4 @@
 draw_config:
-  n_columns: 2
   draw_key_sides: true
   key_w: 60.0
   key_h: 56.0
