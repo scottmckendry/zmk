@@ -48,7 +48,7 @@ draw_config:
     text.label {
         font-weight: bold;
         text-anchor: start;
-        stroke: white;
+        stroke: #212121;
         stroke-width: 2;
         paint-order: stroke;
     }
