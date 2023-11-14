@@ -14,7 +14,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - $$mdi:backspace-outline$$
+  - RETURN
   - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
   - {t: '1', s: '$$mdi:bluetooth$$'}
   - {t: '2', s: '$$mdi:bluetooth$$'}
@@ -42,7 +42,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {type: held}
   - $$mdi:keyboard-space$$
-  - ⮐
+  - $$mdi:backspace-outline$$
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   L2:
@@ -57,7 +57,7 @@ layers:
   - '*'
   - (
   - )
-  - $$mdi:backspace-reverse-outline$$
+  - RETURN
   - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
   - $$mdi:keyboard-space$$
-  - ⮐
+  - $$mdi:backspace-reverse-outline$$
   - {type: held}
   - $$mdi:apple-keyboard-option$$
   FN:
