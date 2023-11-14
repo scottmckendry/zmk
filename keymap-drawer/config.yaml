@@ -1,5 +1,4 @@
 draw_config:
-  draw_key_sides: true
   key_w: 60.0
   key_h: 56.0
   split_gap: 30.0
