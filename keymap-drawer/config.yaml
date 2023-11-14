@@ -188,8 +188,8 @@ parse_config:
     C_MUTE: $$mdi:volume-mute$$
     C_VOL_UP: $$mdi:volume-plus$$
     C_VOL_DN: $$mdi:volume-minus$$
-    C_BRI_UP: $$tabler:brightness-up$$
-    C_BRI_DN: $$tabler:brightness-down$$
+    C_BRI_UP: $$mdi:brightness-7$$
+    C_BRI_DN: $$mdi:brightness-5$$
     C_POWER: $$mdi:power$$
     C_SLEEP: $$mdi:power-sleep$$
     UP: $$mdi:arrow-up$$
