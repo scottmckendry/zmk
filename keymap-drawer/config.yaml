@@ -15,8 +15,8 @@ draw_config:
 
     /* default key styling */
     rect.key {
-        fill: ##212121;
-        stroke: ##212121;
+        fill: #212121;
+        stroke: #212121;
         stroke-width: 1;
     }
 
