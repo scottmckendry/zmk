@@ -1,4 +1,4 @@
-<svg width="920" height="1377" viewBox="0 0 920 1377" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="900" height="1377" viewBox="0 0 900 1377" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:apple-keyboard-command">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-command" viewBox="0 0 24 24"><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
@@ -200,7 +200,7 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(40, 0)" class="layer-L0">
+<g transform="translate(30, 0)" class="layer-L0">
 <text x="0" y="28" class="label">L0:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
@@ -379,7 +379,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(40, 330)" class="layer-L1">
+<g transform="translate(30, 330)" class="layer-L1">
 <text x="0" y="28" class="label">L1:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
@@ -560,7 +560,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(40, 661)" class="layer-L2">
+<g transform="translate(30, 661)" class="layer-L2">
 <text x="0" y="28" class="label">L2:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
@@ -732,7 +732,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(40, 991)" class="layer-FN">
+<g transform="translate(30, 991)" class="layer-FN">
 <text x="0" y="28" class="label">FN:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
