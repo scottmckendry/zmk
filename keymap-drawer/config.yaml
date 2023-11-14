@@ -22,12 +22,12 @@ draw_config:
 
     /* color accent for combo boxes */
     rect.combo {
-        fill: #cdf;
+        fill: #424242;
     }
 
     /* color accent for held keys */
     rect.held, rect.combo.held {
-        fill: #ffc;
+        fill: #424242;
     }
 
     /* color accent for ghost (optional) keys */
@@ -71,7 +71,7 @@ draw_config:
 
     /* lighter symbol for transparent keys */
     text.trans {
-        fill: #7b7e81;
+        fill: transparent;
     }
 
     /* styling for combo dendrons */
