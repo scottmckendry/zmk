@@ -1,19 +1,4 @@
 draw_config:
-  key_w: 60.0
-  key_h: 56.0
-  split_gap: 30.0
-  combo_w: 28.0
-  combo_h: 26.0
-  key_rx: 6.0
-  key_ry: 6.0
-  inner_pad_w: 2.0
-  inner_pad_h: 2.0
-  outer_pad_w: 40.0
-  outer_pad_h: 56.0
-  line_spacing: 1.2
-  arc_radius: 6.0
-  append_colon_to_layer_header: true
-  small_pad: 2.0
   svg_style: |
     /* inherit to force styles through use tags*/
     svg path {
