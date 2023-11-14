@@ -1,8 +1,9 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  L0: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, L1, SPACE, RET, L2, RALT]
+  L0: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
+    Z, X, C, V, B, N, M, ',', ., /, ESC, '$$mdi:apple-keyboard-command$$', L1, '$$mdi:keyboard-space$$', ⮐, L2, '$$mdi:apple-keyboard-option$$']
   L1:
-  - TAB
+  - $$mdi:keyboard-tab$$
   - '1'
   - '2'
   - '3'
@@ -13,20 +14,20 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - $$mdi:backspace-outline$$
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
+  - {t: '1', s: '$$mdi:bluetooth$$'}
+  - {t: '2', s: '$$mdi:bluetooth$$'}
+  - {t: '3', s: '$$mdi:bluetooth$$'}
+  - {t: '4', s: '$$mdi:bluetooth$$'}
+  - {t: '5', s: '$$mdi:bluetooth$$'}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
   - {t: ▽, type: trans}
   - PG UP
-  - LSHFT
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -38,14 +39,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG DN
-  - LGUI
+  - $$mdi:apple-keyboard-command$$
   - {type: held}
-  - SPACE
-  - RET
+  - $$mdi:keyboard-space$$
+  - ⮐
   - {t: ▽, type: trans}
-  - RALT
+  - $$mdi:apple-keyboard-option$$
   L2:
-  - TAB
+  - $$mdi:keyboard-tab$$
   - '!'
   - '@'
   - '#'
@@ -56,8 +57,8 @@ layers:
   - '*'
   - (
   - )
-  - DELETE
-  - LCTRL
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -69,7 +70,7 @@ layers:
   - ']'
   - \
   - '`'
-  - LSHFT
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -81,12 +82,12 @@ layers:
   - '}'
   - '|'
   - '~'
-  - LGUI
+  - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
-  - SPACE
-  - RET
+  - $$mdi:keyboard-space$$
+  - ⮐
   - {type: held}
-  - RALT
+  - $$mdi:apple-keyboard-option$$
   FN:
   - F1
   - F2
@@ -106,14 +107,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PREV
-  - VOL DN
-  - VOL UP
-  - NEXT
+  - $$mdi:skip-backward$$
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
+  - $$mdi:skip-forward$$
   - {t: ▽, type: trans}
-  - BRI UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:brightness-7$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,13 +122,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BRI DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:brightness-5$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
-  - PLAY PAUSE
+  - $$mdi:play-pause$$
 combos:
 - p: [38, 39]
   k: FN

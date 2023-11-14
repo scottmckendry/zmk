@@ -1,0 +1,246 @@
+draw_config:
+  svg_style: |
+    /* inherit to force styles through use tags*/
+    svg path {
+        fill: inherit;
+    }
+    /* font and background color specifications */
+    svg.keymap {
+        font-family: Ubuntu Mono,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+        font-size: 13px;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        fill: #fff;
+    }
+
+    /* default key styling */
+    rect.key {
+        fill: #212121;
+        stroke: #212121;
+        stroke-width: 1;
+    }
+
+    /* color accent for combo boxes */
+    rect.combo {
+        fill: #424242;
+    }
+
+    /* color accent for held keys */
+    rect.held, rect.combo.held {
+        fill: #424242;
+    }
+
+    /* color accent for ghost (optional) keys */
+    rect.ghost, rect.combo.ghost {
+        fill: #ddd;
+    }
+
+    rect.trans {
+      fill: rgba(33, 33, 33, 0.2)
+    }
+
+    text {
+        text-anchor: middle;
+        dominant-baseline: middle;
+    }
+
+    /* styling for layer labels */
+    text.label {
+        font-weight: bold;
+        text-anchor: start;
+        stroke: white;
+        stroke-width: 2;
+        paint-order: stroke;
+    }
+
+    /* styling for combo tap, and key hold/shifted label text */
+    text.combo, text.hold, text.shifted {
+        font-size: 11px;
+    }
+
+    text.hold {
+        text-anchor: middle;
+        dominant-baseline: auto;
+    }
+
+    text.shifted {
+        text-anchor: middle;
+        dominant-baseline: hanging;
+    }
+
+    /* styling for hold/shifted label text in combo box */
+    text.combo.hold, text.combo.shifted {
+        font-size: 8px;
+    }
+
+    /* lighter symbol for transparent keys */
+    text.trans {
+        fill: transparent;
+    }
+
+    /* styling for combo dendrons */
+    path.combo {
+        stroke-width: 1;
+        stroke: gray;
+        fill: none;
+    }
+
+    /* Start Tabler Icons Cleanup */
+    /* cannot use height/width with glyphs */
+    .icon-tabler > path {
+        fill: inherit;
+        stroke: inherit;
+    }
+    /* hide tabler's default box */
+    .icon-tabler > path[stroke="none"][fill="none"] {
+        visibility: collapse;
+    }
+    /* End Tabler Icons Cleanup */
+  shrink_wide_legends: 6
+  glyph_tap_size: 13
+  glyph_hold_size: 12
+  glyph_shifted_size: 10
+  glyphs: {}
+  glyph_urls:
+    tabler: https://tabler-icons.io/static/tabler-icons/icons/{}.svg
+    mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
+    mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
+    material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
+  use_local_cache: true
+parse_config:
+  preprocess: true
+  skip_binding_parsing: false
+  sticky_label: sticky
+  trans_legend:
+    t: ▽
+    type: trans
+  zmk_keycode_map:
+    EXCLAMATION: '!'
+    EXCL: '!'
+    AT_SIGN: '@'
+    AT: '@'
+    HASH: '#'
+    POUND: '#'
+    DOLLAR: $
+    DLLR: $
+    PERCENT: '%'
+    PRCNT: '%'
+    CARET: ^
+    AMPERSAND: '&'
+    AMPS: '&'
+    ASTERISK: '*'
+    ASTRK: '*'
+    STAR: '*'
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    EQUAL: '='
+    PLUS: +
+    MINUS: '-'
+    UNDERSCORE: _
+    UNDER: _
+    SLASH: /
+    FSLH: /
+    QUESTION: '?'
+    QMARK: '?'
+    BACKSLASH: \
+    BSLH: \
+    PIPE: '|'
+    NON_US_BACKSLASH: \
+    PIPE2: '|'
+    NON_US_BSLH: '|'
+    SEMICOLON: ;
+    SEMI: ;
+    COLON: ':'
+    SINGLE_QUOTE: ''''
+    SQT: ''''
+    APOSTROPHE: <
+    APOS: .
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    COMMA: ','
+    LESS_THAN: <
+    LT: <
+    PERIOD: .
+    DOT: .
+    GREATER_THAN: '>'
+    GT: '>'
+    LEFT_BRACKET: '['
+    LBKT: '['
+    LEFT_BRACE: '{'
+    LBRC: '{'
+    RIGHT_BRACKET: ']'
+    RBKT: ']'
+    RIGHT_BRACE: '}'
+    RBRC: '}'
+    GRAVE: '`'
+    TILDE: '~'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    TILDE2: '~'
+    SPACE: $$mdi:keyboard-space$$
+    BSPC: $$mdi:backspace-outline$$
+    DELETE: $$mdi:backspace-reverse-outline$$
+    C_PLAY_PAUSE: $$mdi:play-pause$$
+    C_NEXT: $$mdi:skip-forward$$
+    C_PREV: $$mdi:skip-backward$$
+    C_MUTE: $$mdi:volume-mute$$
+    C_VOL_UP: $$mdi:volume-plus$$
+    C_VOL_DN: $$mdi:volume-minus$$
+    C_BRI_UP: $$mdi:brightness-7$$
+    C_BRI_DN: $$mdi:brightness-5$$
+    C_POWER: $$mdi:power$$
+    C_SLEEP: $$mdi:power-sleep$$
+    UP: $$mdi:arrow-up$$
+    DOWN: $$mdi:arrow-down$$
+    LEFT: $$mdi:arrow-left$$
+    RIGHT: $$mdi:arrow-right$$
+    RET: ⮐
+    KP_NUMLOCK: Numlock
+    TAB: $$mdi:keyboard-tab$$
+    LEFT_GUI: $$mdi:apple-keyboard-command$$
+    LGUI: $$mdi:apple-keyboard-command$$
+    RIGHT_GUI: $$mdi:apple-keyboard-command$$
+    RGUI: $$mdi:apple-keyboard-command$$
+    LEFT_ALT: $$mdi:apple-keyboard-option$$
+    LALT: $$mdi:apple-keyboard-option$$
+    RIGHT_ALT: $$mdi:apple-keyboard-option$$
+    RALT: $$mdi:apple-keyboard-option$$
+    LEFT_SHIFT: $$mdi:apple-keyboard-shift$$
+    LSHIFT: $$mdi:apple-keyboard-shift$$
+    LSHFT: $$mdi:apple-keyboard-shift$$
+    RIGHT_SHIFT: $$mdi:apple-keyboard-shift$$
+    RSHIFT: $$mdi:apple-keyboard-shift$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    RIGHT_CONTROL: $$mdi:apple-keyboard-control$$
+    RCTRL: $$mdi:apple-keyboard-control$$
+    LCTRL: $$mdi:apple-keyboard-control$$
+    LEFT_CONTROL: $$mdi:apple-keyboard-control$$
+    
+  raw_binding_map:
+    # Bluetooth
+    "&bt BT_SEL 0":
+      shifted: $$mdi:bluetooth$$
+      tap: 1
+      hold: ""
+    "&bt BT_SEL 1":
+      shifted: $$mdi:bluetooth$$
+      tap: 2
+      hold: ""
+    "&bt BT_SEL 2":
+      shifted: $$mdi:bluetooth$$
+      tap: 3
+      hold: ""
+    "&bt BT_SEL 3":
+      shifted: $$mdi:bluetooth$$
+      tap: 4
+      hold: ""
+    "&bt BT_SEL 4":
+      shifted: $$mdi:bluetooth$$
+      tap: 5
+      hold: ""
+    "&bt BT_CLR":
+      shifted: $$mdi:bluetooth$$
+      tap: $$mdi:toggle-switch$$
+      hold: ""
