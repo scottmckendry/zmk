@@ -10,13 +10,13 @@ draw_config:
         font-size: 13px;
         font-kerning: normal;
         text-rendering: optimizeLegibility;
-        fill: #24292e;
+        fill: #fff;
     }
 
     /* default key styling */
     rect.key {
-        fill: #f6f8fa;
-        stroke: #c9cccf;
+        fill: #141414;
+        stroke: #141414;
         stroke-width: 1;
     }
 
