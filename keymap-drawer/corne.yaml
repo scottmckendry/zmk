@@ -15,12 +15,12 @@ layers:
   - '9'
   - '0'
   - $$mdi:backspace-outline$$
-  - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:numeric-0$$', h: '$$mdi:bluetooth$$'}
-  - {t: '$$mdi:numeric-1$$', h: '$$mdi:bluetooth$$'}
-  - {t: '$$mdi:numeric-2$$', h: '$$mdi:bluetooth$$'}
-  - {t: '$$mdi:numeric-3$$', h: '$$mdi:bluetooth$$'}
-  - {t: '$$mdi:numeric-4$$', h: '$$mdi:bluetooth$$'}
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-up$$
