@@ -213,36 +213,3 @@ parse_config:
     RCTRL: $$mdi:apple-keyboard-control$$
     LCTRL: $$mdi:apple-keyboard-control$$
     LEFT_CONTROL: $$mdi:apple-keyboard-control$$
-    LC(A): 'tmux prefix'
-  raw_binding_map:
-    '&caps_word': 'CAPS WORD'
-    '&act COLON': '&act :'
-    '&act QUESTION': '&act ?'
-    '&act LESS_THAN': '&act <'
-    '&act GREATER_THAN': '&act >'
-    '&bt BT_CLR': '$$mdi:bluetooth-off$$'
-    '&out OUT_BLE': '$$mdi:bluetooth$$'
-    '&out OUT_USB': '$$mdi:usb$$'
-    '&bt BT_SEL 0': {h: $$mdi:bluetooth$$ , t: $$mdi:numeric-0$$}
-    '&bt BT_SEL 1': {h: $$mdi:bluetooth$$ , t: $$mdi:numeric-1$$}
-    '&bt BT_SEL 2': {h: $$mdi:bluetooth$$ , t: $$mdi:numeric-2$$}
-    '&bt BT_SEL 3': {h: $$mdi:bluetooth$$ , t: $$mdi:numeric-3$$}
-    '&bt BT_SEL 4': {h: $$mdi:bluetooth$$ , t: $$mdi:numeric-4$$}
-    '&bt BT_PRV':   {h: $$mdi:bluetooth$$ , t: $$mdi:skip-previous$$}
-    '&bt BT_NXT':   {h: $$mdi:bluetooth$$ , t: $$mdi:skip-next$$}
-
-  zmk_combos:
-    combo_inverse_winl:     { align: right  , o: 0.0   , arc_scale: 1.03  }
-    combo_inverse_winr:     { align: left   , o: 0.0   , arc_scale: 1.03  }
-    combo_lighting:         { align: top    , o: 1.55  , arc_scale: 1.03  }
-    combo_tmux:             { align: top    , o: 0.25  , arc_scale: 1.03  }
-    combo_tmux_mode_select: { align: top    , o: 0.25  , arc_scale: 1.03  }
-    combo_capsword:         { align: bottom , o: 2.5   , arc_scale: 1.03  }
-    combo_version:          { align: top    , o: 0.5   , arc_scale: 1.03  }
-    combo_delete:           { align: top    , o: 0.5   , arc_scale: 1.03  }
-    combo_gui_left:         { align: bottom , o: 0.5   , arc_scale: 1.03  }
-    combo_alt_left:         { align: left   , o: 0.5   , arc_scale: 1.03  }
-    combo_gui_right:        { align: bottom , o: 0.5   , arc_scale: 1.03  }
-    combo_alt_right:        { align: right  , o: 0.5   , arc_scale: 1.03  }
-    combo_swap_left:        { align: top    , o: 1.05  , arc_scale: 1.055 }
-    combo_swap_right:       { align: top    , o: 1.05  , arc_scale: 1.055 }
