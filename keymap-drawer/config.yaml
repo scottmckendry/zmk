@@ -235,7 +235,7 @@ raw_binding_keymap:
       shifted: $$mdi:bluetooth-connect$$
       tap: ""
       hold: 5
-    "&out OUT_TOG":
+    "&bt BT_CLR":
       shifted: $$mdi:usb$$
       tap: $$mdi:toggle-switch$$
       hold: $$mdi:bluetooth$$
