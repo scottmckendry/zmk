@@ -16,11 +16,11 @@ layers:
   - '0'
   - $$mdi:backspace-outline$$
   - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
-  - {t: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '1', s: '$$mdi:bluetooth$$'}
+  - {t: '2', s: '$$mdi:bluetooth$$'}
+  - {t: '3', s: '$$mdi:bluetooth$$'}
+  - {t: '4', s: '$$mdi:bluetooth$$'}
+  - {t: '5', s: '$$mdi:bluetooth$$'}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-up$$

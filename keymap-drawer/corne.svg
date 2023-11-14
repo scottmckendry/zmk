@@ -33,9 +33,6 @@
 <svg id="mdi:bluetooth">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth" viewBox="0 0 24 24"><path d="M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12L17.71,7.71Z" /></svg>
 </svg>
-<svg id="mdi:bluetooth-connect">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-bluetooth-connect" viewBox="0 0 24 24"><path d="M19,10L17,12L19,14L21,12M14.88,16.29L13,18.17V14.41M13,5.83L14.88,7.71L13,9.58M17.71,7.71L12,2H11V9.58L6.41,5L5,6.41L10.59,12L5,17.58L6.41,19L11,14.41V22H12L17.71,16.29L13.41,12M7,12L5,10L3,12L5,14L7,12Z" /></svg>
-</svg>
 <svg id="mdi:keyboard-space">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-space" viewBox="0 0 24 24"><path d="M3 15H5V19H19V15H21V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V15Z" /></svg>
 </svg>
@@ -426,27 +423,27 @@ path.combo {
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">1</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth"/>
 </g>
 <g transform="translate(140, 91)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">2</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">3</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth"/>
 </g>
 <g transform="translate(252, 91)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">4</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth"/>
 </g>
 <g transform="translate(308, 98)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">5</text>
-<use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth-connect"/>
+<use href="#mdi:bluetooth" xlink:href="#mdi:bluetooth" x="-5" y="-24" height="10" width="10.0" class="key shifted glyph mdi:bluetooth"/>
 </g>
 <g transform="translate(532, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
