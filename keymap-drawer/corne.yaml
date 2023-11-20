@@ -14,7 +14,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - RETURN
+  - ⮐
   - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
   - {t: '1', s: '$$mdi:bluetooth$$'}
   - {t: '2', s: '$$mdi:bluetooth$$'}
@@ -57,7 +57,7 @@ layers:
   - '*'
   - (
   - )
-  - RETURN
+  - ⮐
   - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
