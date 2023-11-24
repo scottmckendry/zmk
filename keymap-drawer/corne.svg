@@ -113,7 +113,7 @@ text.label {
     font-weight: bold;
     text-anchor: start;
     stroke: white;
-    color: #212121;
+    fill: #212121;
     stroke-width: 2;
     paint-order: stroke;
 }
