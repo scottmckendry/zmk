@@ -112,7 +112,8 @@ text {
 text.label {
     font-weight: bold;
     text-anchor: start;
-    stroke: #212121;
+    stroke: white;
+    color: #212121;
     stroke-width: 2;
     paint-order: stroke;
 }
