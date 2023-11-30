@@ -42,7 +42,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - FN
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   L2:
@@ -84,7 +84,7 @@ layers:
   - '~'
   - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - FN
   - {type: held}
   - DEL
   - $$mdi:apple-keyboard-option$$
@@ -126,12 +126,8 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:brightness-5$$
   - {t: ▽, type: trans}
-  - {t: PP, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PP
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
-combos:
-- p: [37, 40]
-  k: FN
-  l: [L0]
+  - {t: ▽, type: trans}
