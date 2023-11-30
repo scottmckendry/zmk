@@ -101,7 +101,7 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -113,7 +113,7 @@ layers:
   - $$mdi:skip-forward$$
   - {t: ▽, type: trans}
   - $$mdi:brightness-7$$
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,11 +126,11 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:brightness-5$$
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: PP, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - $$mdi:play-pause$$
+  - $$mdi:apple-keyboard-option$$
 combos:
 - p: [37, 40]
   k: FN
