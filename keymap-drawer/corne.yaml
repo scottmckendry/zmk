@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   L0: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, ⮐, '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
-    Z, X, C, V, B, N, M, ',', ., /, ESC, '$$mdi:apple-keyboard-command$$', L1, '$$mdi:keyboard-space$$', '$$mdi:backspace-outline$$', L2, '$$mdi:apple-keyboard-option$$']
+    Z, X, C, V, B, N, M, ',', ., /, ESC, '$$mdi:apple-keyboard-command$$', '$$mdi:keyboard-space$$', L1, L2, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-option$$']
   L1:
   - $$mdi:keyboard-tab$$
   - '1'
@@ -40,8 +40,8 @@ layers:
   - {t: ▽, type: trans}
   - PG DN
   - $$mdi:apple-keyboard-command$$
-  - {type: held}
-  - $$mdi:keyboard-space$$
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - $$mdi:backspace-outline$$
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
@@ -85,8 +85,8 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
   - $$mdi:keyboard-space$$
-  - $$mdi:backspace-reverse-outline$$
-  - {type: held}
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   FN:
   - F1
@@ -126,12 +126,12 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:brightness-5$$
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - $$mdi:play-pause$$
 combos:
-- p: [38, 39]
+- p: [37, 40]
   k: FN
   l: [L0]
