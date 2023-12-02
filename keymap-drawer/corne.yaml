@@ -41,8 +41,8 @@ layers:
   - PG DN
   - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - $$mdi:backspace-outline$$
+  - {type: held}
+  - FN
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   L2:
@@ -84,9 +84,9 @@ layers:
   - '~'
   - $$mdi:apple-keyboard-command$$
   - {t: ▽, type: trans}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
-  - {t: ▽, type: trans}
+  - FN
+  - {type: held}
+  - DEL
   - $$mdi:apple-keyboard-option$$
   FN:
   - F1
@@ -126,12 +126,8 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:brightness-5$$
   - {t: ▽, type: trans}
-  - {t: PP, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PP
   - {type: held}
-  - $$mdi:apple-keyboard-option$$
-combos:
-- p: [37, 40]
-  k: FN
-  l: [L0]
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
