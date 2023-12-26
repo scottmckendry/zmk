@@ -3,7 +3,7 @@ layers:
   L0: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, ⮐, '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
     Z, X, C, V, B, N, M, ',', ., /, ESC, '$$mdi:apple-keyboard-command$$', '$$mdi:keyboard-space$$', L1, L2, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-option$$']
   L1:
-  - $$mdi:keyboard-tab$$
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -14,7 +14,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ⮐
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '1', s: '$$mdi:bluetooth$$'}
   - {t: '2', s: '$$mdi:bluetooth$$'}
@@ -39,12 +39,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG DN
-  - $$mdi:apple-keyboard-command$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - FN
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
   L2:
   - {t: ▽, type: trans}
   - '!'
@@ -57,7 +57,7 @@ layers:
   - '*'
   - (
   - )
-  - ⮐
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -82,12 +82,12 @@ layers:
   - '}'
   - '|'
   - '~'
-  - $$mdi:apple-keyboard-command$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - FN
   - {type: held}
   - DEL
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
   FN:
   - F1
   - F2
