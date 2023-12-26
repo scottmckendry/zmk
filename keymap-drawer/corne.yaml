@@ -15,7 +15,7 @@ layers:
   - '9'
   - '0'
   - ⮐
-  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
+  - {t: ▽, type: trans}
   - {t: '1', s: '$$mdi:bluetooth$$'}
   - {t: '2', s: '$$mdi:bluetooth$$'}
   - {t: '3', s: '$$mdi:bluetooth$$'}
@@ -27,7 +27,7 @@ layers:
   - $$mdi:arrow-right$$
   - {t: ▽, type: trans}
   - PG UP
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -46,7 +46,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   L2:
-  - $$mdi:keyboard-tab$$
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
@@ -58,7 +58,7 @@ layers:
   - (
   - )
   - ⮐
-  - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -70,7 +70,7 @@ layers:
   - ']'
   - \
   - '`'
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -101,7 +101,7 @@ layers:
   - F10
   - F11
   - F12
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -113,7 +113,7 @@ layers:
   - $$mdi:skip-forward$$
   - {t: ▽, type: trans}
   - $$mdi:brightness-7$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
