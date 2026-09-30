@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   L0: ['$$mdi:keyboard-tab$$', Q, W, E, R, T, Y, U, I, O, P, ⮐, '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
     Z, X, C, V, B, N, M, ',', ., /, ESC, '$$mdi:apple-keyboard-command$$', '$$mdi:keyboard-space$$', L1, L2, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-option$$']
@@ -103,7 +103,7 @@ layers:
   - F12
   - {t: '$$mdi:toggle-switch$$', s: '$$mdi:bluetooth$$'}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

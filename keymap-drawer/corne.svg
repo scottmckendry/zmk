@@ -157,7 +157,7 @@ path.combo {
 /* End Tabler Icons Cleanup */
 </style>
 <g transform="translate(30, 0)" class="layer-L0">
-<text x="0" y="28" class="label">L0:</text>
+<text x="0" y="28" class="label" id="L0">L0:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -313,12 +313,14 @@ path.combo {
 </g>
 <g transform="translate(349, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">L1</text>
-</g>
+<a href="#L1">
+<text x="0" y="0" class="key tap layer-activator">L1</text>
+</a></g>
 <g transform="translate(491, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">L2</text>
-</g>
+<a href="#L2">
+<text x="0" y="0" class="key tap layer-activator">L2</text>
+</a></g>
 <g transform="translate(556, 212) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-6" y="-6" height="13" width="13.0" class="key tap glyph mdi:backspace-outline"/>
@@ -330,7 +332,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 330)" class="layer-L1">
-<text x="0" y="28" class="label">L1:</text>
+<text x="0" y="28" class="label" id="L1">L1:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -498,8 +500,9 @@ path.combo {
 </g>
 <g transform="translate(491, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">FN</text>
-</g>
+<a href="#FN">
+<text x="0" y="0" class="key tap layer-activator">FN</text>
+</a></g>
 <g transform="translate(556, 212) rotate(-15.0)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
@@ -511,7 +514,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-L2">
-<text x="0" y="28" class="label">L2:</text>
+<text x="0" y="28" class="label" id="L2">L2:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -667,8 +670,9 @@ path.combo {
 </g>
 <g transform="translate(349, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">FN</text>
-</g>
+<a href="#FN">
+<text x="0" y="0" class="key tap layer-activator">FN</text>
+</a></g>
 <g transform="translate(491, 224) rotate(-30.0)" class="key held keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
 </g>
@@ -683,7 +687,7 @@ path.combo {
 </g>
 </g>
 <g transform="translate(30, 991)" class="layer-FN">
-<text x="0" y="28" class="label">FN:</text>
+<text x="0" y="28" class="label" id="FN">FN:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -742,9 +746,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(140, 91)" class="key trans keypos-14">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(140, 91)" class="key keypos-14">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;studio_u…</tspan></text>
 </g>
 <g transform="translate(196, 84)" class="key trans keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
